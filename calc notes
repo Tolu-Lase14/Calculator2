@@ -1,0 +1,9 @@
+Steps:
+a. You start by creating a main div to hold the other div's (calculator).
+b. You put input, add an id, and write 'readonly'. 
+     <input id="display" readonly>
+c. You create a div in calc (keys) and put button onclick.
+    <button onclick="appenToDisplay('+')">+</button> (For all numbers and symbols)
+    <button onclick="clearDisplay()">C</button> (To clear what is in the Display)
+    <button onclick="calculate('=')">=</button> (To calculate)
+Note: 1rem=16px
